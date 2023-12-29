@@ -1,0 +1,36 @@
+:root {
+  --square-size: 200px;
+}
+
+.block {
+  padding: 30px;
+  box-sizing: border-box;
+  position: absolute;
+}
+
+.block-one {
+  z-index: 2;
+  width: var(--square-size);
+  height: var(--square-size);
+  top: 200px;
+  left: 200px;
+  background: blue;
+}
+
+.block-two {
+  z-index: -1;
+  width: calc(var(--square-size) / 1.5);
+  height: calc(var(--square-size) / 1.5);
+  top: 100px;
+  left: 100px;
+  background: green;
+}
+
+.block-three {
+  z-index: 99;
+  width: calc(var(--square-size) / 2);
+  height: calc(var(--square-size) / 2);
+  background: red;
+  top: 150px;
+  left: 220px;
+}
