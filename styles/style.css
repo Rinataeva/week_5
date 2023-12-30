@@ -1,11 +1,30 @@
 header,
 footer {
-  border: 1px solid black;
+  border: 1px solid rgb(42, 5, 63);
+  padding: 2px;
+  background-color: rgb(77, 39, 99);
 }
 body {
   display: flex;
   flex-flow: column;
   min-height: 100vh;
+}
+.menu .nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  width: 20vh;
+}
+.nav {
+  display: flex;
+  justify-self: center;
+  align-items: stretch;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: beige;
 }
 main {
   flex: 1;
@@ -16,15 +35,41 @@ main {
 .heading {
   color: royalblue;
 }
-.container {
+:root {
+  --height-block: 50px;
+}
+.container .photo {
   flex: auto;
   display: flex;
   flex-direction: row;
   justify-content: stretch;
+  background-color: aquamarine;
 }
 .photo {
-  width: 20px;
-  height: 15px;
+  width: 300px;
+  height: 250px;
   margin: 10px;
   padding: 5px;
+}
+body {
+  margin: 0;
+  padding: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  background: gray;
+  overflow: hidden;
+}
+
+.item {
+  width: calc((100% / 5) - 20px);
+  background: pink;
+  margin: 20px;
+}
+
+.img {
+  height: 100px;
+  background: pink;
 }
