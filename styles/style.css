@@ -6,21 +6,23 @@ footer {
 }
 body {
   display: flex;
-  flex-flow: column;
+  flex-flow: row;
   min-height: 100vh;
 }
 .menu .nav {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   align-items: stretch;
-  width: 20vh;
+  width: 10vh;
 }
 .nav {
   display: flex;
+  flex-direction: column;
   justify-self: center;
   align-items: stretch;
   margin: 10px;
-  padding: 10px;
+  padding: 20px;
   font-size: 20px;
   font-family: "Roboto", sans-serif;
   text-align: center;
@@ -34,9 +36,8 @@ main {
 }
 .heading {
   color: royalblue;
-}
-:root {
-  --height-block: 50px;
+  font-size: large;
+  font-family: "Roboto", sans-serif;
 }
 .container .photo {
   flex: auto;
@@ -44,6 +45,7 @@ main {
   flex-direction: row;
   justify-content: stretch;
   background-color: aquamarine;
+  border: 5px solid slateblue;
 }
 .photo {
   width: 300px;
@@ -51,25 +53,20 @@ main {
   margin: 10px;
   padding: 5px;
 }
-body {
-  margin: 0;
-  padding: 30px;
-}
-
-.container {
+aside .photos {
+  flex: auto;
   display: flex;
-  justify-content: space-between;
-  background: gray;
-  overflow: hidden;
+  flex-direction: column;
+  background-color: rgb(38, 104, 82);
+  border: 5px solid royalblue;
+  width: 30vh;
 }
-
-.item {
-  width: calc((100% / 5) - 20px);
-  background: pink;
-  margin: 20px;
+.photos {
+  width: 300px;
+  height: 250px;
+  margin: 10px;
+  padding: 5px;
 }
-
-.img {
-  height: 100px;
-  background: pink;
+section {
+  flex: 1;
 }
