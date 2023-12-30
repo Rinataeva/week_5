@@ -3,9 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Magic everywhere</title>
+    <!-- Сначала Normalize -->
+    <link rel="stylesheet" href="/styles/normalize.css" />
+    <!-- Потом свои стили -->
+    <link rel="stylesheet" href="/styles/style.css" />
+    <!-- Ссылка на шрифт Roboto Regular 400 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Ссылка на шрифт Roboto Light 300 italic -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   </head>
   <body>
-    <header></header>
+    <header>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Gallery</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1 class="heading">The Gallery of Magical Things</h1>
+        <div class="container">
+          <div class="photo">
+            <img
+              src="/asssets/images/feather.jpg"
+              alt="an image of a feather"
+            />
+          </div>
+          <div class="photo">
+            <img src="/asssets/images/flute.png" alt="an image of a flute" />
+          </div>
+          <div class="photo">
+            <img
+              src="/asssets/images/flying_key.jpg"
+              alt="an image of flying key"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

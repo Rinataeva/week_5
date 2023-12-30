@@ -1,3 +1,4 @@
+/* Расположение блоков с z-index*/
 :root {
   --square-size: 200px;
 }
@@ -33,4 +34,28 @@
   background: red;
   top: 150px;
   left: 220px;
+}
+/* Блочная модель */
+p {
+  border: 1px solid blueviolet;
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  padding: 15px;
+}
+/* Флексы */
+.flexcontainer {
+  display: flex;
+  border: 1px solid chocolate;
+  flex-direction: row;
+  align-items: stretch;
+  height: 30vh;
+}
+.flexs {
+  align-self: center;
+  /* Увеличение */
+  flex-grow: 0.5;
+}
+.flexp {
+  flex-basis: 10vh;
 }

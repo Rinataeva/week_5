@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sheer Magic</title>
+    <title>Practicing</title>
     <!-- Сначала Normalize -->
     <link rel="stylesheet" href="/styles/normalize.css" />
     <!-- Потом свои стили -->
-    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="/styles/style2.css" />
     <!-- Ссылка на шрифт Roboto Regular 400 -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,32 +20,51 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   </head>
   <body>
-    <header>
-      <h1>Здесь будут таблицы</h1>
-      <table border="1px">
-        <thead>
-          Информация
-        </thead>
-        <th>ФИО</th>
-        <th>Образование</th>
-        <th>Навыки</th>
-        <th>Опыт</th>
-        <tr>
-          <td>1</td>
-          <td>2</td>
-          <td>3</td>
-          <td>4</td>
-        </tr>
-        <tr>
-          <td colspan="2">5+6</td>
-          <td>7</td>
-          <td>8</td>
-        </tr>
-        <td>9</td>
-        <td>10</td>
-        <td>11</td>
-        <td>12</td>
-      </table>
-    </header>
+    <!-- Таблица классическая -->
+    <h1>Здесь будут таблицы</h1>
+    <table border="1px">
+      <thead>
+        Информация
+      </thead>
+      <th>ФИО</th>
+      <th>Образование</th>
+      <th>Навыки</th>
+      <th>Опыт</th>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td rowspan="2">3+7</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td colspan="2">5+6</td>
+        <td>8</td>
+      </tr>
+      <td>9</td>
+      <td>10</td>
+      <td>11</td>
+      <td>12</td>
+    </table>
+    <!-- Блочная модель -->
+    <h1>Блочная модель</h1>
+    <p>Абзац 111111111111111111111111111111111111111111111</p>
+    <p>Абзац 2</p>
+    <p>Абзац 3</p>
+    <!-- Флекс -->
+    <h1>Флекс боксы</h1>
+    <div class="flexcontainer">
+      <p class="flexp">
+        Абзац
+        111111111111111111111111111111111111111111111111111111111111111111111111111
+      </p>
+      <p class="flexs">
+        Абзац
+        2222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      </p>
+      <p class="flexp">
+        Абзац
+        33333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333
+      </p>
+    </div>
   </body>
 </html>
