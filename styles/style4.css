@@ -1,0 +1,34 @@
+/* Позиционирование квадратов*/
+:root {
+  --square-size: 250px;
+}
+.flexcontainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.block {
+  padding: 30px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+.block-one {
+  width: var(--square-size);
+  height: var(--square-size);
+  background: red;
+}
+.block-two {
+  width: var(--square-size);
+  height: var(--square-size);
+  background: green;
+}
+.block-three {
+  width: var(--square-size);
+  height: var(--square-size);
+  background: blue;
+}
+.block-four {
+  width: var(--square-size);
+  height: var(--square-size);
+  background: rgb(130, 47, 185);
+}
