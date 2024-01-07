@@ -37,7 +37,7 @@ u {
   margin-left: 20px;
 }
 .menu a {
-  padding: 8px 10 px;
+  padding: 0 10 px;
 }
 body {
   display: flex;
@@ -96,7 +96,7 @@ img {
   flex-flow: column wrap;
   align-items: flex-start;
   width: 100vw;
-  height: 15vh;
+  height: 10vh;
   text-align: center;
   text-decoration: none;
   background-color: rgb(255, 230, 0);
