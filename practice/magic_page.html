@@ -4,7 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Magic everywhere</title>
-    <!-- Сначала Normalize -->
+    <link
+      rel="shortcut icon"
+      href="/asssets/images/magic_icon.png"
+      type="image/png"
+      <!--
+      Сначала
+      Normalize
+      --
+    />
     <link rel="stylesheet" href="/styles/normalize.css" />
     <!-- Потом свои стили -->
     <link rel="stylesheet" href="/styles/style.css" />
@@ -21,67 +29,74 @@
   </head>
   <body>
     <header class="header">
-      <nav class="nav">
+      <div class="logo"><img src="/asssets/images/logo.webp" /></div>
+      <div class="menu">
         <ul>
-          <li class="menu"><a href="/practice/magic_page.html"><img src="/asssets/images/figma5.svg"></a></li>
-          <li class="menu"><a href="#"><img src="/asssets/images/figma4.svg"></a></li>
-          <li class="menu"><a href="#"><img src="/asssets/images/figma6.svg"></a></li>
-          <li class="menu">
-            <a href="mailto:rinataeva19@gmail.com"><img src="/asssets/images/figma7.svg"></a>
+          <li>
+            <a href="/practice/magic_page.html"
+              ><img src="/asssets/images/figma5.svg"
+            /></a>
+          </li>
+          <li>
+            <a href="#"><img src="/asssets/images/figma4.svg" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="/asssets/images/figma6.svg" /></a>
+          </li>
+          <li>
+            <a href="mailto:rinataeva19@gmail.com"
+              ><img src="/asssets/images/figma7.svg"
+            /></a>
           </li>
         </ul>
-      </nav>
+      </div>
     </header>
     <main class="main">
       <section class="section">
         <h1>Fabulous Magic Items from Fairy Tales</h1>
+        <div class="cols">
+          <div class="col">
+            <h2>Magic feather</h2>
+            <p>
+              A wonderful bird drops a feather in a forest. If you pick it up,
+              you'll begin a journey into a magical lands
+            </p>
+            <!-- колонка №1 -->
+          </div>
+          <div class="col">
+            <h2>Magic wand</h2>
+            <p>
+              With a magic wand you can achieve what you dream about. You'll be
+              able to change and to be transformed right before the eyes
+            </p>
+            <!-- колонка №2 -->
+          </div>
+          <div class="col">
+            <h2>Crystal Ball</h2>
+            <p>
+              Cristal Ball will show you the future and break any bad
+              enchantment
+            </p>
+            <!-- колонка №3 -->
+          </div>
+        </div>
         <div class="flexcontainer">
-                <h3>Magic feather</h3>
-                <img
-              src="/asssets/images/feather2.png"
-              alt="an image of a feather"
-            />
-            <img src="/asssets/images/figma1.svg" alt="figma">
-          </div>
-          <div class="flexcontainer">
-            <h3>Magic wand</h3>
-            <img
-              src="/asssets/images/magic_wand2.png"
-              alt="an image of a wand"
-            />
-          <img src="/asssets/images/figma8.svg" alt="figma"></div>
-                    </div>
-                      <h3>Crystal Ball</h3>
-            <img
-              src="/asssets/images/magic_sphere_gif.gif"
-              alt="an image of a sphere"
-            />
-            <img src="/asssets/images/figma9.svg" alt="figma">
-          </div>
+          <img src="/asssets/images/feather2.png" alt="an image of a feather" />
+          <img src="/asssets/images/magic_wand2.png" alt="an image of a wand" />
+          <img
+            src="/asssets/images/magic_sphere_gif.gif"
+            alt="an image of a sphere"
+          />
+        </div>
       </section>
       <aside class="aside">
-        <h3>Harry Potter's Magic Things</h3>
-        <div class="photo">
-          <img
-            src="/asssets/images/golden_snitch.png"
-            alt="an image of a golden snitch"
-          />
-        </div>
-        <div class="photo">
-          <img
-
-          />
-        </div>
-        <div class="photo">
-          <img
-            src="/asssets/images/magic_hat_gif.gif"
-            alt="an image of a hat"
-          />
-        </div>
+        <h3>Try magic!</h3>
+        <p></p>
       </aside>
     </main>
     <footer class="footer">
-      <address>Write us a letter
+      <address>
+        Write us a letter
         <a href="mailto:rinataeva19@gmail.com&body">rinataeva19@gmail.com</a>
       </address>
       <small class="small">2023 © RinaTaeva</small>
