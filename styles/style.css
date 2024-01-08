@@ -75,8 +75,10 @@ body {
 }
 .flexcontainer {
   display: flex;
-  width: 50vw;
-  height: 40vh;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 70vw;
+  height: 20vh;
 }
 img {
   display: flex;
