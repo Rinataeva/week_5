@@ -9,7 +9,7 @@ u {
   text-decoration: none;
 }
 .header {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   width: 100vw;
   height: 10vh;
